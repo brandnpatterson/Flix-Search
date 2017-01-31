@@ -6,8 +6,7 @@ const Landing = React.createClass({
     return (
       <div className='landing'>
         <h1>Flix Search</h1>
-        <input type='text' placeholder='Search' />
-        <Link to='/search'>or Browse All</Link>
+        <Link to='/search'>Start</Link>
       </div>
     )
   }
